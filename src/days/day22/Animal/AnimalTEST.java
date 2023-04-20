@@ -17,6 +17,7 @@ public class AnimalTEST {
         cat.legs= 4;
         cat.canFly = false;
         cat.isPet = true;
+        cat.eat();
 
         System.out.println("cat.kind = " + cat.kind);
         System.out.println("cat.skinColour = " + cat.skinColour);

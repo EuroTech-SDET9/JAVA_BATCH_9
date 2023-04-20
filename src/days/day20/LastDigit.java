@@ -12,15 +12,20 @@ public class LastDigit {
     // lastDigit()
     // if the last digits are same return true else false
     public static boolean lastDigit(int num, int num2) {
-        boolean result = true;
+  //      boolean result;
         if (num % 10 == num2 % 10) {
             System.out.println("last digits are same");
-            result = true;
+//            result = true;
+            return  true;
         } else {
             System.out.println("last digits are different");
-            result = false;
+       //     result = false;
+            return false;
         }
-        return result;
+   //     return result;
+
+    // Option -2 (if you dont want to print anything)
+//        return (num % 10 == num2 % 10);
     }
 
 
