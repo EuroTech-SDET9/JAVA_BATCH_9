@@ -20,5 +20,10 @@ public class HasNextSample {
         }
 
         scanner.close(); // not mandatory, good to use
+
+        scanner = new Scanner(System.in);
+        System.out.println("TEST 2");
+        int value = scanner.nextInt();
+        System.out.println("value = " + value);
     }
 }
