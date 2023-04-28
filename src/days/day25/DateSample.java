@@ -25,8 +25,8 @@ public class DateSample {
 
         // separate day mount and year!!!
 
-        Date date1= new SimpleDateFormat("yyyy-MM-dd").parse(dateStr);
-        System.out.println(dateStr+"\t"+date1);
+        Date date1 = new SimpleDateFormat("yyyy-MM-dd").parse(dateStr);
+        System.out.println(dateStr + "\t" + date1);
 
         ///////////////// 2. WAY
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
