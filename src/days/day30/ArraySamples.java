@@ -143,7 +143,6 @@ public class ArraySamples {
         String[] actualResults= {"Test", "Java", "java", "String", "int", "break", "default", "Key", "Array"};
         String[] expectedResults= {"Test", "java", "Java", "String", "Int", "break", "default", "KeYs", "ArraY"};
 
-
         // your task is:
         // compare these 2 array element by element according to their insertion order
         // you should ignore case sensitivity!!
@@ -160,6 +159,22 @@ public class ArraySamples {
 //        String t2 = "test";
 //        System.out.println("t1.equals(t2) = " + t1.equals(t2));  // false !! case sensitivity!!
 
+
+        int minSize = Math.min(actualResults.length, expectedResults.length);
+        int count=0;
+        for (int i = 0; i < minSize; i++) {
+
+            if(actualResults[i].equalsIgnoreCase(expectedResults[i])){  //actualResults[i].toLowerCase().equals(expectedResults[i].toLowerCase())
+                System.out.println("actualResults "+ actualResults[i] +" value is equal to expectedResults "+ expectedResults[i] );
+            } else{
+                System.out.println("actualResults "+ actualResults[i] +" value is NOT equal to expectedResults "+ expectedResults[i] );
+               count++;
+            }
+        }
+        System.out.println("There is/are a "+count+" not equal result");
+
+
+        System.out.println(" \n/////////////////////////////////////////////\n ");
 
     }
 
