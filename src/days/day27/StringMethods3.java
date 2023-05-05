@@ -25,33 +25,33 @@ public class StringMethods3 {
         System.out.println(name.replace('b', 'a'));//you can send char as argument for replace method
 //        name.replaceAll('b','a') you cant send char as argument for replaceall method
 
-        System.out.println( name.replace("david", "Michael"));//b Hello David Hello b
+        System.out.println(name.replace("david", "Michael"));//b Hello David Hello b
         System.out.println(name.toLowerCase().replace("david", "Michael"));//b Hello Michael Hello b
         System.out.println(name.toUpperCase().substring(3, 9));
-        name="Hello Ronaldo";
+        name = "Hello Ronaldo";
         System.out.println(name.length());
         System.out.println(name.toUpperCase().replace("Hello", "Hi").substring(0, 5));
 
-        name="Bob";
+        name = "Bob";
         System.out.println("Hello ".concat(name));
-        System.out.println("Hello ".concat(name)+"!");
+        System.out.println("Hello ".concat(name) + "!");
         System.out.println("Hello ".concat(name).concat("!"));
 
-        String a="Hi";
-        String b="Bye";
+        String a = "Hi";
+        String b = "Bye";
         //abba
         System.out.println(a.concat(b).concat(b).concat(a));
 
 
-        String out="<<>>";
+        String out = "<<>>";
         //          0123
-        String word="WooHoo";
+        String word = "WooHoo";
         //<<WooHoo>>
 //    << .concat (word) .concat (>>)
         String concat = out.substring(0, 2).concat(word).concat(out.substring(2));
         System.out.println(concat);
         //CONTAINS
-        name="Ronaldo Messi";
+        name = "Ronaldo Messi";
         System.out.println(name.contains("Ali"));
         System.out.println(name.contains("Messi"));
         System.out.println(name.contains("Ro"));
@@ -64,11 +64,12 @@ public class StringMethods3 {
 //        System.out.println(name.startsWith('R'));char is not accepted
         System.out.println(name.startsWith("R"));
         //ENDSWITH
-        name="Ronaldo Messi";
-        System.out.println( name.endsWith("Messi"));
+        name = "Ronaldo Messi";
+        System.out.println(name.endsWith("Messi"));
 //        System.out.println( name.endsWith('i')); char is not accepted
-        System.out.println( name.endsWith("i"));
+        System.out.println(name.endsWith("i"));
         //ISEMPTY
         System.out.println(name.isEmpty());
+        StringFormat format = new StringFormat();
     }
 }

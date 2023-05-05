@@ -1,7 +1,14 @@
 package days.day27;
 
+import days.day24.ScannerSample;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Scanner;
+
 public class StringFormat {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         String name = "Ali";
         String greetings = "Hello " + name + "!";
         char exc = '!';
@@ -37,9 +44,19 @@ public class StringFormat {
         for (int i = 1; i < 10; i++) {
             for (int n = 1; n < 10; n++) {
 //                System.out.print(i * n+"  ");
-                System.out.printf("%-2d ", i * n);
+                System.out.printf("%2d ", i * n);
             }
             System.out.println();
         }
+
+
     }
+
+    public static void print() {
+        System.out.println("Hello from string format class!!!!");
+    }
+    public static void sayhi() {
+        System.out.println("Hi from string format class!!!!");
+    }
+
 }
