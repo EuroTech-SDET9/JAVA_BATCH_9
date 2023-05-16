@@ -13,7 +13,7 @@ public class School {
 
     // no-arg constructor!!!
     public School(){
-        System.out.println("!!! CONSTRUCTOR !!!");
+        System.out.println("!!! WELCOME TO THE SCHOOL !!!");
         buildingType="school";
         schoolCount += 1;
     }

@@ -7,7 +7,7 @@ public class Review_3 {
         Random random = new Random();
         int number = random.nextInt(100);
         System.out.println("number = " + number);
-        System.out.println("number between 50-100  = " + random.nextInt(50, 100));
+  //      System.out.println("number between 50-100  = " + random.nextInt(50, 100));
         number = random.nextInt(40 - 20) + 20;
         System.out.println("number between 20 -40  = " + number);
 
