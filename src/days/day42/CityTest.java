@@ -6,8 +6,10 @@ public class CityTest {
     public static void main(String[] args) {
 
         City city1 = new City("Paris",100100);
-//        System.out.println("Welcome to " + city1.name);  // We don't need to type them separately for each object.
-//        City.cityCounter++;                              // just put them in const. !! That's enough!!
+//        System.out.println("Welcome to " + city1.name);
+// We don't need to type them separately for each object.
+//        City.cityCounter++;
+// just put them in const. !! That's enough!!
 
 // print counter ()  -> 1
         City.printCityCounter();

@@ -15,12 +15,12 @@ public class City {
     }
 
 
-    public void updateCityPopulation(int newPopulation ){
+    public void updateCityPopulation(int newPopulation) {
         this.population = newPopulation;
     }
 
 
-    public static void printCityCounter(){
+    public static void printCityCounter() {
         System.out.println("Total city count is " + cityCounter);
     }
 }
