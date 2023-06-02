@@ -1,6 +1,6 @@
 package days.day47.first;
 
-//access modifier -->public   reachable from everywhere,same packagges or other packages
+//access modifier -->public   reachable from everywhere,same packages or other packages
 //                -->default  reachable in the same packages unreachable in other packages
 //                -->private  unreachable out of the class
 //                -->protected in same package and in the child class
