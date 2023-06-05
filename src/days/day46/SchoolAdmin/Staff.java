@@ -5,14 +5,17 @@ public class Staff extends SchoolAdmin{
     int staffID;
     String department;
 
+
     public Staff(String name, int birthYear, char gender, String department) {
-        this.name = name;
-        this.birthYear = birthYear;
-        this.gender = gender;
+        super(name, birthYear, gender);
+        staffType = "General Staff";
         this.department = department;
-        signContract();
+        signContract(staffType);
     }
 
 
-
+    @Override
+    public void signContract(String staffType) {
+        super.signContract(staffType);
+    }
 }

@@ -6,12 +6,14 @@ public class Student extends SchoolAdmin { // SUB CLASS
     String faculty;
 
     public Student(String name, int birthYear, char gender, String faculty) {
-        this.name = name;
-        this.birthYear = birthYear;
-        this.gender = gender;
+        super(name, birthYear, gender);
+        staffType = "Student";
         this.faculty = faculty;
-        signContract();
+        signContract(staffType);
     }
 
-
+    @Override
+    public void signContract(String staffType) {
+        super.signContract(staffType);
+    }
 }

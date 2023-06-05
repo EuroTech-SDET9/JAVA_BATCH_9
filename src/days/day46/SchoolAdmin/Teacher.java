@@ -6,12 +6,16 @@ public class Teacher extends SchoolAdmin {
     String profession;
 
     public Teacher(String name, int birthYear, char gender, String profession) {
-        this.name = name;
-        this.birthYear = birthYear;
-        this.gender = gender;
+        super(name, birthYear, gender);
+        staffType = "Teacher";
         this.profession = profession;
-        signContract();
+        signContract(staffType);
+
     }
 
 
+    @Override
+    public void signContract(String staffType) {
+        super.signContract(staffType);
+    }
 }
