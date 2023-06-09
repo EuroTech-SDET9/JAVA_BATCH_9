@@ -1,5 +1,7 @@
 package days.day50;
 
+import days.day52.Data;
+
 public class VehicleTest {
     public static void main(String[] args) {
 //        new Vehicle();'Vehicle' is abstract; cannot be instantiated
@@ -21,6 +23,7 @@ public class VehicleTest {
         jet1.moving();
         System.out.println("jet1.toString() = " + jet1.toString());
         jet1.landing();
+        Data.city = "Madrid";
 
 
     }

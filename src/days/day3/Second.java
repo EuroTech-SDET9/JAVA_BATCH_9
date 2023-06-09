@@ -1,5 +1,7 @@
 package days.day3;
 
+import days.day52.MyInterface;
+
 public class Second {
     public static void main(String[] args) {
         //    ctrl +  / ---->comment out 1 line
@@ -18,6 +20,8 @@ public class Second {
         here
         java will ignore this part
          */
+        System.out.println("MyInterface.country = " + MyInterface.country);
+
 
 
     }
