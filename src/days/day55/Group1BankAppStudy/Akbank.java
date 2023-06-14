@@ -1,4 +1,4 @@
-package days.day55.Group1BankApp;
+package days.day55.Group1BankAppStudy;
 
 
 public class Akbank extends Bank {
