@@ -54,7 +54,7 @@ public class ListSamples {
 
         System.out.println("\n//////// Stack ////////\n");
 
-        Stack<Character> stack = new Stack<>();
+        Stack<Character> stack = new Stack<>();   // Last In First Out - LIFO
 
         stack.push('R');
         stack.push('A');
